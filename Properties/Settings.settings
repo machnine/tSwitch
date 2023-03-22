@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="tSwitch.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SQLDataSource" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">HOSTNAME,1433\SQLEXPRESS</Value>
+    </Setting>
+    <Setting Name="SQLPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Password</Value>
+    </Setting>
+    <Setting Name="TSVConfig" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">d:\test.xml</Value>
+    </Setting>
+    <Setting Name="TSVConfigXPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">configuration/appSettings/add[@key='ConnectionString']</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
